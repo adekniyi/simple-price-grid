@@ -5,30 +5,32 @@
 
 .wrapper{
     margin: 0 auto;
+    margin-top: 7%;
     width: 40%;
 }
 
 .firstGrid{
     width: 100%;
     height: 140px;
-    background-color: blueviolet;
+    background-color: hsl(0, 0%, 100%);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    box-shadow: 2px 2px 15px 2px hsl(218, 22%, 67%);
 }
 .firstGrid h4{
-  color: aqua;
+  color: hsl(179, 62%, 43%);
   padding-top: 1.3rem;
   font-size: 1.3rem;
   padding-left: 1.7rem;
 }
 .firstGrid h5{
-    color: greenyellow;
+    color: hsl(71, 73%, 54%);
     padding-top: 0.7rem;
     font-size: 1rem;
     padding-left: 1.7rem;
 }
 .firstGrid h6{
-    color: grey;
+    color: hsl(218, 22%, 67%);
     padding-top: 0.3rem;
     font-size: 0.9rem;
     padding-left: 1.7rem;
@@ -37,22 +39,29 @@
 
 .secondGrid{
     width: 100%;
-    height: 170px;
-    background-color: rgb(43, 226, 89);
+    height: 200px;
     display: flex;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    box-shadow: 2px 7px 10px 2px hsl(218, 22%, 67%);
 }
 
 .subgrid1{
     width: 50%;
     /* margin-left: 2rem; */
-    background-color: hotpink;
+    background-color: hsl(179, 81%, 34%);
+    color: white;
 }
 .subgrid1 h4{
     /* margin-left: 2rem; */
-    padding-top: 1.5rem;
+    padding-top: 10%;
     padding-left: 1.7rem;
+}
+.dollar{
+    font-size: 2rem;
+}
+.write{
+    color: hsl(204, 43%, 93%);
 }
 .subgrid1 h5{
     /* margin-left: 2rem; */
@@ -63,7 +72,7 @@
     /* margin-left: 2rem; */
     padding-top: 0.5rem;
     padding-left: 1.7rem;
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 .subgrid1 input{
     margin-top: 1rem;
@@ -72,20 +81,133 @@
     height: 40px;
     border-radius: 5px;
     border: black;
+    color: white;
+    font-weight: 400;
+    background-color: hsl(71, 73%, 54%);
 }
 
 
 .subgrid2{
     width: 50%;
+    background-color: hsl(179, 70%, 52%);
     margin: 0 auto;
+    color: white;
 }
 .subgrid2 h4{
-    padding-top: 1.5rem;
+    padding-top: 10%;
     padding-left: 1.7rem;
 }
 .subgrid2 p{
     /* padding-top: 1.5rem; */
+    padding-top: 8%;
     padding-left: 1.7rem;
-    padding-right: 4rem;
-    font-size: 0.9rem;
+    padding-right: 20%;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/* responsiveness */
+
+@media only screen and (max-width: 960px) {
+.firstGrid{
+    width: 100%;
+    height: 110px;
+}
+.firstGrid h4{
+  color: hsl(179, 62%, 43%);
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  padding-left: 1.2rem;
+}
+.firstGrid h5{
+    color: hsl(71, 73%, 54%);
+    padding-top: 0.3rem;
+    font-size: 0.85rem;
+    padding-left: 1.2rem;
+}
+.firstGrid h6{
+    color: hsl(218, 22%, 67%);
+    padding-top: 0.3rem;
+    font-size: 0.7rem;
+    padding-left: 1.2rem;
+}
+
+
+.secondGrid{
+    width: 100%;
+    height: 160px;
+}
+
+.subgrid1 h4{
+    padding-top: 5%;
+    padding-left: 1.2rem;
+    font-size: 0.8rem;
+}
+.dollar{
+    font-size: 1.5rem;
+}
+
+.subgrid1 h5{
+    padding-top: 0.3rem;
+    padding-left: 1.2rem;
+}
+.subgrid1 h6{
+    padding-top: 0.3rem;
+    padding-left: 1.2rem;
+    font-size: 14px;
+}
+.subgrid1 input{
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: black;
+    color: white;
+    font-weight: 400;
+    background-color: hsl(71, 73%, 54%);
+}
+.subgrid2 h4{
+    padding-top: 5%;
+    padding-left: 1.2rem;
+    font-size: 0.8rem;
+}
+.subgrid2 p{
+    padding-top: 5%;
+    padding-left: 1.2rem;
+    padding-right: 7%;
+    font-size: 11.8px;
+}
+
+}
+
+@media only screen and (max-width: 420px) {
+    .wrapper{
+        margin: 0 auto;
+        margin-top: 7%;
+        width: 70%;
+    }
+    .firstGrid{
+        width: 100%;
+        height: 150px;
+    }
+    .secondGrid{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .subgrid1{
+        width: 100%;
+        height: 180px;
+    }
+    .subgrid2{
+        width: 100%;
+        height: 170px;
+    }
 }
