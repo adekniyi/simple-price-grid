@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Karla', sans-serif;
 }
 
 .wrapper{
@@ -22,9 +23,11 @@
   padding-top: 1.3rem;
   font-size: 1.3rem;
   padding-left: 1.7rem;
+  font-weight: 700;
 }
 .firstGrid h5{
     color: hsl(71, 73%, 54%);
+    font-weight: 700;
     padding-top: 0.7rem;
     font-size: 1rem;
     padding-left: 1.7rem;
@@ -56,9 +59,11 @@
     /* margin-left: 2rem; */
     padding-top: 10%;
     padding-left: 1.7rem;
+    font-weight: 700;
 }
 .dollar{
     font-size: 2rem;
+    font-weight: 700;
 }
 .write{
     color: hsl(204, 43%, 93%);
@@ -82,7 +87,7 @@
     border-radius: 5px;
     border: black;
     color: white;
-    font-weight: 400;
+    font-weight: 700;
     background-color: hsl(71, 73%, 54%);
 }
 
@@ -95,6 +100,7 @@
 }
 .subgrid2 h4{
     padding-top: 10%;
+    font-weight: 700;
     padding-left: 1.7rem;
 }
 .subgrid2 p{
