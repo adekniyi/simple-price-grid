@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstGrid{
+    width: 40%;
+    height: 130px;
+    background-color: blueviolet;
+}
+.firstGrid h4{
+  color: aqua;
+  padding-top: 1.3rem;
+  font-size: 1.3rem;
+  padding-left: 1.7rem;
+}
+.firstGrid h5{
+    color: greenyellow;
+    padding-top: 0.7rem;
+    font-size: 1rem;
+    padding-left: 1.7rem;
+}
+.firstGrid h6{
+    color: grey;
+    padding-top: 0.3rem;
+    font-size: 0.9rem;
+    padding-left: 1.7rem;
+}
+
+
+.secondGrid{
+    width: 40%;
+    height: 170px;
+    background-color: rgb(43, 226, 89);
+    display: flex;
+}
+
+.subgrid1{
+    width: 50%;
+}
+.subgrid2{
+    width: 50%;
+}
